@@ -162,12 +162,24 @@ body{
     margin-top: 60px;
     margin-bottom: 8px;
     margin-left: 82px;
-    padding: 14px 536px 14px 32px;
+    padding: 20px 536px 14px 32px;
     
     background: #FFFFFF;
     border-radius: 10px;
+
     
     
+}
+.form-url::placeholder{
+    font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.15px;
+
+color: #34313D;
+
+mix-blend-mode: normal;
+opacity: 0.5;
 }
 .line-text{
     display: block;
@@ -194,14 +206,15 @@ body{
 }
 
 .form-bt{
-    margin-top: 9px;
+    margin-top: 6px;
     margin-left: 24px;
     
-    padding: 6px 28px;
+    padding: 9px 28px;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+    border: none;
     
     background: #2BD0D0;
     border-radius: 10px;
@@ -350,14 +363,19 @@ body{
 /* start last section */
 
 .last{
-}
-.last-box{
-    
     background-image: url(../images/last-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1100px;
+    width: 100%;
     height: 210px;
+}
+.last-box{
+    
+    /* background-image: url(../images/last-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 210px; */
     
 }
 .boos{
